@@ -1,0 +1,69 @@
+        html {
+            font-family: sans-serif;
+        }
+       
+       
+        
+        .row {
+            border:1px solid rgb(116, 98, 119);
+        }
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        img {
+            float:left; 
+            height:250px; 
+            width: 200px; 
+            margin:0px;
+        }
+        
+       .strong {
+            font-weight: bold;
+        }
+
+        @media only screen and (min-width: 100px) {
+            /* For tablets: */
+
+            /* this will change the container class background to red when tablet*/
+
+            .col {
+                background-color: rgb(173, 148, 157);
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: rgb(112, 129, 210);
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: rgb(143, 193, 169);
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: rgb(189, 176, 110);
+            }
+        }
+
+        /*Orientation of landscape */
+
+        @media only screen and (orientation: landscape) {
+            /* this will change the background to light blue when view is landscape */
+            .col {
+                background-color: rgb(196, 163, 202);
+            }
+        }
+
+        
+     
