@@ -1,14 +1,23 @@
         html {
             font-family: sans-serif;
         }
+        body {
+            background-image: url(/images/banner.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
        
        
         
         .row {
-            border:1px solid rgb(116, 98, 119);
+            border: 1px solid rgb(54, 69, 79, 0.5);
+            box-shadow: 0 0 15px rgba(135, 206, 235, 0.5);
+            border-radius: 2px;
         }
         .name {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
         img {
@@ -28,7 +37,7 @@
             /* this will change the container class background to red when tablet*/
 
             .col {
-                background-color: rgb(173, 148, 157);
+                background-color: rgb(255, 255, 255);
             }
         }
 
@@ -36,7 +45,7 @@
             /* For desktop: will change the container class to orange*/
 
             .col {
-                background-color: rgb(112, 129, 210);
+                background-color: rgb(245, 245, 220);
             }
         }
 
@@ -61,7 +70,7 @@
         @media only screen and (orientation: landscape) {
             /* this will change the background to light blue when view is landscape */
             .col {
-                background-color: rgb(196, 163, 202);
+                background-color: rgb(230, 230, 250);
             }
         }
 
